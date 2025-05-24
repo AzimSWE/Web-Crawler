@@ -1,2 +1,2 @@
 # Web-Crawler
-A Web Crawler essentially just fetches Web Pages and just parses a website's content, extracting the relevant data and finding more Web Pages to crawl, for instance locating relevant Keywords
+A Web Crawler essentially just fetches Web Pages and just parses a website's content, extracting the relevant data and finding more Web Pages to crawl, for instance locating relevant Keywords, putting the content in an inverted table in MongoDB, allowing you to map the relevant keyword to the URL, the UML below displays the program flow clearly. As well as creating a Search UI, which allows you to locate a keyword, putting it in the Queue, which is then popper to parse through the Web Page content to further insert it into the database.
